@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Recyclerview</string>
+    <string name="flag_image">flag image</string>
+    <string name="brazil">Brazil</string>
+    <string name="canada">Canada</string>
+    <string name="germany">Germany</string>
+    <string name="russian_federation">Russian Federation</string>
+    <string name="great_britain">Great Britain</string>
 </resources>
