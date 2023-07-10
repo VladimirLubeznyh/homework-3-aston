@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Recyclerview</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="lastname_name">Lastname name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="first_name">First name</string>
 </resources>

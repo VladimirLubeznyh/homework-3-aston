@@ -30,6 +30,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -38,4 +41,15 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "com.google.android.material:material:$material_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+
+    //Recycler view
+    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+
+    //Faker
+    implementation "com.github.javafaker:javafaker:$javafaker_version"
+    
+    //Adapter delegates
+    implementation "com.hannesdorfmann:adapterdelegates4:$adapterdelegates_version"
+    implementation "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-layoutcontainer:$adapterdelegates_version"
+    implementation "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:$adapterdelegates_version"
 }
